@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorited</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section class="menu">
+        <div class="container">
+            <div class="menu__board">
+                <div class="menu__logo">
+                    <a href="#">
+                        <img class="logo" src="./icons/logo.svg" alt="Teddy Shop">
+                    </a>
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="index.html"> Головна</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="categories.html"> Категорії</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="novelty.html">Новинки</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="about_us.html"> Про нас</a>
+                    </li>
+                </ul>
+
+                <input class="input__search" type="text" placeholder="Шукати">
+
+
+                <ul class="menu__option-list">
+                    <li class="menu__option-item">
+                        <span class="search">
+                        </span>
+                    </li>
+                    <li class="menu__option-item">
+                        <a href="account.html">
+                            <span class="account"></span>
+                        </a>
+
+                    </li>
+                    <li class="menu__option-item">
+                        <a href="favorited_items.html">
+                            <span class="favorite"></span>
+                        </a>
+                    </li>
+                    <li class="menu__option-item">
+                        <a href="cart.html">
+                            <span class="cart"></span>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <script src="./index.js"></script>
+            </div>
+        </div>
+    </section>
+    <section class="phone__menu">
+        <div class="container">
+            <div class="phone__options">
+                <ul class="phone__list">
+                    <li class="phone__list-item">
+                        <div class="phone__logo">
+                            <a href="#">
+                                <img class="logo" src="./icons/logo.svg" alt="Teddy Shop">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="phone__list-item">
+                        <ul class="options__list">
+                            <li class="option"><a class="option__link" href="#"><img src="./icons/favorite.svg"
+                                        alt="search"></a></li>
+                            <li class="option"><a class="option__link" href="#"><img src="./icons/cart.svg"
+                                        alt="search"></a></li>
+                            <li class="option"><a class="option__link" href="#"><img src="./icons/account.svg"
+                                        alt="search"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search__input">
+                    <input class="search__input-box" type="text" placeholder="Що шукаєш?">
+                    <a class="search__icon">
+                        <img src="./icons/search.svg" alt="search">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="favorites__overview">
+        <div class="container">
+            <h1 class="title">Ваші улюблені іграшки:</h1>
+        </div>
+    </section>
+</body>
+</html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Plushies Shop</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -21,24 +21,23 @@
                 </div>
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a class="menu__link" href="#"> Головна</a>
+                        <a class="menu__link" href="index.html"> Головна</a>
                     </li>
 
                     <li class="menu__item">
-                        <a class="menu__link" href="#"> Категорії</a>
+                        <a class="menu__link" href="categories.html"> Категорії</a>
                     </li>
 
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Новинки</a>
+                        <a class="menu__link" href="novelty.html">Новинки</a>
                     </li>
 
                     <li class="menu__item">
-                        <a class="menu__link" href="#"> Про нас</a>
+                        <a class="menu__link" href="about_us.html"> Про нас</a>
                     </li>
                 </ul>
 
                 <input class="input__search" type="text" placeholder="Що шукаєш?">
-
 
 
                 <ul class="menu__option-list">
@@ -47,13 +46,20 @@
                         </span>
                     </li>
                     <li class="menu__option-item">
-                        <span class="account"></span>
+                        <a href="account.html">
+                            <span class="account"></span>
+                        </a>
+
                     </li>
                     <li class="menu__option-item">
-                        <span class="favorite"></span>
+                        <a href="favorited_items.html">
+                            <span class="favorite"></span>
+                        </a>
                     </li>
                     <li class="menu__option-item">
-                        <span class="cart"> </span>
+                        <a href="cart.html">
+                            <span class="cart"></span>
+                        </a>
                     </li>
                 </ul>
 
@@ -139,46 +145,53 @@
                 <h1 class="products__title-text"><i>Магазин для весни</i></h1>
             </div>
             <ul class="products__list">
-                <li class="products__item">
-                    <img class="product__image product__teddy" src="./images/first-product.jpeg" alt="cute teddy">
-                    <div class="product__text">
-                        <p class="product__name">Teddy - 10.5 Orso</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$24</p>
-                    </div>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__teddy" src="./images/first-product.jpeg" alt="cute teddy">
+                        <div class="product__text">
+                            <p class="product__name">Teddy - 10.5 Orso</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$24</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__dino" src="./images/second-product.jpeg" alt="cute dino">
+                        <div class="product__text">
+                            <p class="product__name">Trixy - 8.5 Tricerapoto</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$30</p>
+                        </div>
+                    </li>
+                </a>
 
-                </li>
-                <li class="products__item">
-                    <img class="product__image product__dino" src="./images/second-product.jpeg" alt="cute dino">
-                    <div class="product__text">
-                        <p class="product__name">Trixy - 8.5 Tricerapoto</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$30</p>
-                    </div>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__bunny" src="./images/third-product.jpeg" alt="cute bunny">
+                        <div class="product__text">
+                            <p class="product__name">Bunny - 10.5 Coniglio</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$25</p>
+                        </div>
+                    </li>
+                </a>
 
-                </li>
-                <li class="products__item">
-                    <img class="product__image product__bunny" src="./images/third-product.jpeg" alt="cute bunny">
-                    <div class="product__text">
-                        <p class="product__name">Bunny - 10.5 Coniglio</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$25</p>
-                    </div>
-
-                </li>
-                <li class="products__item">
-                    <img class="product__image product__giraffe" src="./images/fourth-product.jpeg" alt="cute giraffe">
-                    <div class="product__text">
-                        <p class="product__name">Gigi - 12.5 Giraffa</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$30</p>
-                    </div>
-
-                </li>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__giraffe" src="./images/fourth-product.jpeg"
+                            alt="cute giraffe">
+                        <div class="product__text">
+                            <p class="product__name">Gigi - 12.5 Giraffa</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$30</p>
+                        </div>
+                    </li>
+                </a>
             </ul>
             <div class="products__button"><a class="products__button-link" href="#">Переглянути зараз</a></div>
         </div>
@@ -190,49 +203,57 @@
                 <h1 class="products__title-text popular__products-title"><i>Найпопулярніші іграшки</i></h1>
             </div>
             <ul class="products__list">
-                <li class="products__item">
-                    <img class="product__image product__butterfly" src="./images/butterfly__plushie.jpeg"
-                        alt="cute butterfly">
-                    <div class="product__text">
-                        <p class="product__name">Aria- 11.5 Farfalla</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$35</p>
-                    </div>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__butterfly" src="./images/butterfly__plushie.jpeg"
+                            alt="cute butterfly">
+                        <div class="product__text">
+                            <p class="product__name">Aria- 11.5 Farfalla</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$35</p>
+                        </div>
+                    </li>
+                </a>
 
-                </li>
-                <li class="products__item">
-                    <img class="product__image product__dragon" src="./images/green__dragon.jpeg" alt="cute dragon">
-                    <div class="product__text">
-                        <p class="product__name">Blaze - 13.5 Drago</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$25</p>
-                    </div>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__dragon" src="./images/green__dragon.jpeg" alt="cute dragon">
+                        <div class="product__text">
+                            <p class="product__name">Blaze - 13.5 Drago</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$25</p>
+                        </div>
+                    </li>
+                </a>
 
-                </li>
-                <li class="products__item">
-                    <img class="product__image product__bunny-light" src="./images/bunny__plushie.jpeg"
-                        alt="cute bunny">
-                    <div class="product__text">
-                        <p class="product__name">Clover - 10.5 Lepre</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$30</p>
-                    </div>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__bunny-light" src="./images/bunny__plushie.jpeg"
+                            alt="cute bunny">
+                        <div class="product__text">
+                            <p class="product__name">Clover - 10.5 Lepre</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$30</p>
+                        </div>
+                    </li>
+                </a>
 
-                </li>
-                <li class="products__item">
-                    <img class="product__image product__elephant" src="./images/elephant__plushie.jpeg"
-                        alt="cute elephant">
-                    <div class="product__text">
-                        <p class="product__name">Jumbo - 10.5 Elefante</p>
-                        <span class="product__rated"></span>
-                        <span class="product__unrated"></span>
-                        <p class="product__price">$30</p>
-                    </div>
+                <a href="#">
+                    <li class="products__item">
+                        <img class="product__image product__elephant" src="./images/elephant__plushie.jpeg"
+                            alt="cute elephant">
+                        <div class="product__text">
+                            <p class="product__name">Jumbo - 10.5 Elefante</p>
+                            <span class="product__rated"></span>
+                            <span class="product__unrated"></span>
+                            <p class="product__price">$30</p>
+                        </div>
+                    </li>
+                </a>
 
-                </li>
             </ul>
             <div class="products__button"><a class="products__button-link" href="#">Переглянути зараз</a></div>
         </div>
@@ -307,6 +328,7 @@
         </div>
     </section>
 
+
     <section class="feedbacks">
         <div class="container">
             <div class="feedbacks__title">
@@ -356,7 +378,7 @@
 
     <footer class="footer">
         <div class="container">
-            
+
         </div>
 
         <div class="links">
@@ -417,7 +439,7 @@
                     </li>
                     <li class="main__phone-item">
                         <ul class="secondary__list">
-                            
+
                             <li class="secondary__item">
                                 <a href="#">Зв'яжіться з нами</a>
                             </li>
@@ -428,7 +450,9 @@
                                 <a href="#">Передзвоніть</a>
                             </li>
                             <li class="main__phone-item">
-                                <p class="main__phone-item-text">Підпишіться на наш<a href="#">&nbsp;Інстаграм</a></p>
+                                <p class="main__phone-item-text">Підпишіться на наш <a
+                                        href="https://www.instagram.com/saind_anik_varyshka?igsh"> &nbsp; Інстаграм</a>
+                                </p>
                             </li>
                         </ul>
                     </li>
@@ -443,7 +467,9 @@
                             <img class="logo" src="./icons/logo.svg" alt="Teddy Shop">
                         </a>
                     </div>
-                    <p class="credits__text">© 2023 TeddyShop. Всі права захищені.</p>
+                    <a href="#">
+                        <p class="credits__text">© 2023 TeddyShop. Всі права захищені.</p>
+                    </a>
                 </div>
             </div>
         </div>
